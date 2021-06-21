@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Towers of Hanoi</title>
+
+<link href="styles.css" rel="stylesheet">
+<script src="Puck.js"></script>
+<script src="Peg.js"></script>
+<script src="Point.js"></script>
+<script src="Hanoi.js"></script>
+
+<script>
+function DrawBoard()
+{
+	(new Hanoi()).DrawBoard();
+}
+</script>
+
+</head>
+<body onload="DrawBoard()">
+	<svg id="hanoiTowers" height="500" width="800" xmlns="http://www.w3.org/2000/svg" />
+</body>
+</html>

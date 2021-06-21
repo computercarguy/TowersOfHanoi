@@ -1,0 +1,33 @@
+.menu {
+  fill: black;
+  stroke: black;
+  font-size: 20pt;
+}
+
+.peg {
+  fill: black;
+  stroke: black;
+  font-size: 30pt;
+}
+
+.pegDisabled {
+  fill: red;
+  stroke: red;
+  font-size: 30pt;
+}
+
+.pegSolved {
+  fill: green;
+  stroke: green;
+  font-size: 30pt;
+}
+
+.instructionText {
+  fill: black;
+  font-size: 18pt;
+}
+
+::selection {
+    background-color: transparent;
+    color: #000;
+}
